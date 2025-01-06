@@ -17,7 +17,7 @@ AWS Security group resource(aws_security_group) which is connected to my custom 
 
 Terraform apply command for apply terraform file:
 
-    terraform apply -auto-approve
+    terraform apply --auto-approve
 
 ![Terraform-apply-cmd](https://github.com/user-attachments/assets/2613518a-4589-4a71-934c-aec86a277445)
 ![Terraform-apply-cmd](https://github.com/user-attachments/assets/da8a2a7f-0647-449e-934c-6abfccad71a8)
@@ -37,7 +37,16 @@ In the only one folder i can create two differnet region Infrastucture using onl
 ![AWS-EC2-2](https://github.com/user-attachments/assets/cf39d33b-db97-47f3-b60b-0fe88658aebb)
 ![AWS-EC2-SG-2](https://github.com/user-attachments/assets/43e567ac-b3ff-4630-9359-1b359f255671)
 
+- VPC for Verginia
+  
+![VPC-Verginia-1](https://github.com/user-attachments/assets/4a263dc3-795e-4ccb-bc2b-1a477dd912cb)
+![VPC-subnet-1](https://github.com/user-attachments/assets/cad601a2-78e4-4bb0-bbf6-4b123f3269d8)
 
+
+- VPC for Mumbai
+  
+![VPC-mumbai](https://github.com/user-attachments/assets/4ef4db62-cacd-4c99-b28b-5462fc43aaf7)
+![VPC-SUBNET](https://github.com/user-attachments/assets/82d12d7c-7b86-4ac5-995a-eb25e3f20495)
 
 
 
