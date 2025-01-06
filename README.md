@@ -10,6 +10,14 @@ AWS Security group resource(aws_security_group) which is connected to my custom 
 ## Terraform module:
 
 ![Module-block-1](https://github.com/user-attachments/assets/01b78245-4aee-42cd-9795-beb6bdf91706)
+
+**associate_public_ip_address = true** --> This ensures that the EC2 instance will be assigned a public IP address. By default,
+If the instance is launched in a public subnet and associate_public_ip_address is true, the instance will get a public IP.
+
+**subnet_id = aws_subnet.ps-subnet-block.id** --> This ensures the instance is launched in a specific subnet within the VPC.
+
+**depends_on = [...]** --> Meta argument This ensures that certain resources are created before the EC2 instance is launched.
+
 ![Module-block-2](https://github.com/user-attachments/assets/54fdb5cf-815c-4233-a18d-8003135371d7)
 ![Module-block-3](https://github.com/user-attachments/assets/9b91a606-9702-4ad6-a74c-3c5137dd55ed)
 
