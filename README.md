@@ -3,7 +3,16 @@
 ## Alias :
  Terraform Alias is use for creating multi-region providers.
 
+## Why Use Aliases?: 
+Aliases allow us to specify which provider configuration to use when creating resources in different regions or with different credentials. For example,
+if i want to create an EC2 instance in Mumbai and another one in North Virginia, I would use the aliases mumbai-PS and Nverginia-PS to differentiate them. 
 
+## Multiple Providers:
+ By using aliases, We can have multiple provider blocks in the same configuration for different AWS regions (or different AWS accounts).
+ In my case, I've defined two providers for two different regions: ap-south-1 (Mumbai) and us-east-1 (North Virginia
+ 
+- Set-up overview:
+  
 I create Module folder for AWS EC2 instance(aws_instance), AWS amazon machine image retrieve data source(aws_ami), AWS VPC resource(aws-vpc) with Subnet with dynamic subnet availability zone from alias/provider, 
 AWS Security group resource(aws_security_group) which is connected to my custom VPC.
 
@@ -45,6 +54,8 @@ It selects the first availability zone from the list provided by the aws_availab
 ## Teraform main.tf:
 
 ![image](https://github.com/user-attachments/assets/b0a15c0d-4b71-48d2-895f-601f02b51b2f)
+
+**profile = "tfPratik"** -->  The AWS CLI profile to use for credentials.
 
 
 ## I call module from TeamB:
