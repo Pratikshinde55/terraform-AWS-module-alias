@@ -14,3 +14,14 @@ AWS Security group resource(aws_security_group) which is connected to my custom 
      terraform init
 
 ![Terraform-init-cmd](https://github.com/user-attachments/assets/ecffc38c-2341-49db-bf02-6c0a08b54e29)
+
+Terraform apply command for apply terraform file:
+
+    terraform apply -auto-approve
+
+![Terraform-apply-cmd](https://github.com/user-attachments/assets/2613518a-4589-4a71-934c-aec86a277445)
+![Terraform-apply-cmd](https://github.com/user-attachments/assets/da8a2a7f-0647-449e-934c-6abfccad71a8)
+
+In the only one folder i can create two differnet region Infrastucture using only on command.
+
+
