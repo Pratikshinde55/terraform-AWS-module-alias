@@ -78,12 +78,12 @@ In the only one folder i can create two differnet region Infrastucture using onl
 
 ## On AWS Console Infrastucture is created:
 
-- EC2 Instances and Security group on Mumbai
+- EC2 Instances and Security group on N.Virginia
 
 ![AWS-EC2](https://github.com/user-attachments/assets/d42eef2f-2109-4f42-b078-1a6ce586eb9d)
 ![AWS-EC2-SG](https://github.com/user-attachments/assets/d350d9a4-32bb-46b8-a8d7-bbff6e64bd86)
 
-- EC2 Instances and Security group on Verginia
+- EC2 Instances and Security group on Mumbai
 
 ![AWS-EC2-2](https://github.com/user-attachments/assets/cf39d33b-db97-47f3-b60b-0fe88658aebb)
 ![AWS-EC2-SG-2](https://github.com/user-attachments/assets/43e567ac-b3ff-4630-9359-1b359f255671)
