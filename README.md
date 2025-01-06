@@ -25,3 +25,10 @@ Terraform apply command for apply terraform file:
 In the only one folder i can create two differnet region Infrastucture using only on command.
 
 
+## On AWS Console Infrastucture is created:
+
+- EC2 Instances on Both
+
+![AWS-EC2](https://github.com/user-attachments/assets/d42eef2f-2109-4f42-b078-1a6ce586eb9d)
+
+
