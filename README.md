@@ -7,9 +7,20 @@
 I create Module folder for AWS EC2 instance(aws_instance), AWS amazon machine image retrieve data source(aws_ami), AWS VPC resource(aws-vpc) with Subnet with dynamic subnet availability zone from alias/provider, 
 AWS Security group resource(aws_security_group) which is connected to my custom VPC.
 
+## Terraform module:
+
+![Module-block-1](https://github.com/user-attachments/assets/01b78245-4aee-42cd-9795-beb6bdf91706)
+![Module-block-2](https://github.com/user-attachments/assets/54fdb5cf-815c-4233-a18d-8003135371d7)
+
+
+## Teraform main.tf:
+
+![image](https://github.com/user-attachments/assets/b0a15c0d-4b71-48d2-895f-601f02b51b2f)
+
 
 ## I call module from TeamB:
 1st need to initialize and then apply terraform command.
+
 
      terraform init
 
