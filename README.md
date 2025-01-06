@@ -100,7 +100,9 @@ In the only one folder i can create two differnet region Infrastucture using onl
 ![VPC-SUBNET](https://github.com/user-attachments/assets/82d12d7c-7b86-4ac5-995a-eb25e3f20495)
 
 
-## terraform destroy command destroy entire infrastucture in one command:
+## Terraform destroy command destroy entire infrastucture in one command:
 
-![image](https://github.com/user-attachments/assets/2d25a542-7648-4c69-a801-ce6a9e9b670b)
+     terraform destroy
+
+![Terra-destroy-cmd](https://github.com/user-attachments/assets/2d25a542-7648-4c69-a801-ce6a9e9b670b)
 
