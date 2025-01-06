@@ -78,23 +78,23 @@ In the only one folder i can create two differnet region Infrastucture using onl
 
 ## On AWS Console Infrastucture is created:
 
-- EC2 Instances and Security group on N.Virginia
+- EC2 Instances and Security group on N.Virginia region:
 
 ![AWS-EC2](https://github.com/user-attachments/assets/d42eef2f-2109-4f42-b078-1a6ce586eb9d)
 ![AWS-EC2-SG](https://github.com/user-attachments/assets/d350d9a4-32bb-46b8-a8d7-bbff6e64bd86)
 
-- EC2 Instances and Security group on Mumbai
+- EC2 Instances and Security group on Mumbai region:
 
 ![AWS-EC2-2](https://github.com/user-attachments/assets/cf39d33b-db97-47f3-b60b-0fe88658aebb)
 ![AWS-EC2-SG-2](https://github.com/user-attachments/assets/43e567ac-b3ff-4630-9359-1b359f255671)
 
-- VPC for Verginia
+- VPC & Subnet for North Virginia region:
   
 ![VPC-Verginia-1](https://github.com/user-attachments/assets/4a263dc3-795e-4ccb-bc2b-1a477dd912cb)
 ![VPC-subnet-1](https://github.com/user-attachments/assets/cad601a2-78e4-4bb0-bbf6-4b123f3269d8)
 
 
-- VPC for Mumbai
+- VPC & Subnet for Mumbai region:
   
 ![VPC-mumbai](https://github.com/user-attachments/assets/4ef4db62-cacd-4c99-b28b-5462fc43aaf7)
 ![VPC-SUBNET](https://github.com/user-attachments/assets/82d12d7c-7b86-4ac5-995a-eb25e3f20495)
