@@ -21,8 +21,25 @@ If the instance is launched in a public subnet and associate_public_ip_address i
 
 ![Module-block-2](https://github.com/user-attachments/assets/54fdb5cf-815c-4233-a18d-8003135371d7)
 
+**vpc_id = aws_vpc.ps-vpc-block.id** --> here security group is associated with a specific VPC (Virtual Private Cloud). 
+
+**dynamic "ingress" {}** --> The ingress block defines the inbound rules for the security group. In this case, 
+I am using a dynamic block to create multiple inbound rules based on a list of ports provided via var.Allow-TCP.
+
+**egress {}** --> This defines the outbound rules for the security group, the traffic allowed from your EC2 instance to outside.
 
 ![Module-block-3](https://github.com/user-attachments/assets/9b91a606-9702-4ad6-a74c-3c5137dd55ed)
+
+**data "aws_availability_zones" "available"** --> This is a data source that retrieves information about the availability zones in the selected AWS region.
+
+**aws_subnet** --> This defines a new subnet within the VPC.
+
+**availability_zone = data.aws_availability_zones.available.names[0]** -->  This dynamically assigns the availability zone to the subnet.
+It selects the first availability zone from the list provided by the aws_availability_zones data source.
+
+**data.aws_availability_zones.available.names[0]** --> This fetches the first availability zone in the region.This will use the first available zone (EX: us-east-1a)
+
+**map_public_ip_on_launch = true**  -->  This enables the automatic assignment of public IP addresses to instances launched in this subnet.
 
 
 ## Teraform main.tf:
