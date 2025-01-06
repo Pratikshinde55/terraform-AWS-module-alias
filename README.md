@@ -11,6 +11,7 @@ AWS Security group resource(aws_security_group) which is connected to my custom 
 
 ![Module-block-1](https://github.com/user-attachments/assets/01b78245-4aee-42cd-9795-beb6bdf91706)
 ![Module-block-2](https://github.com/user-attachments/assets/54fdb5cf-815c-4233-a18d-8003135371d7)
+![Module-block-3](https://github.com/user-attachments/assets/9b91a606-9702-4ad6-a74c-3c5137dd55ed)
 
 
 ## Teraform main.tf:
