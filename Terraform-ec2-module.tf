@@ -112,3 +112,5 @@ resource "aws_subnet" "ps-subnet-block" {
   ] 
 }
 
+
+################# To Access EC2 Instance then Add aws_route_table & aws_gateway resorce ##################3
